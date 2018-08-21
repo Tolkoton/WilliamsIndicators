@@ -1,3 +1,7 @@
+import matplotlib as mpl
+mpl.use('TkAgg')
+import matplotlib.pyplot as plt
+
 class WilliamsIndicators(object):
 
     def __init__(self, candles):
